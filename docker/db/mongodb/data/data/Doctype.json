@@ -1,0 +1,10 @@
+{
+    "Name": "!DOCTYPE",
+    "Description": "Es la etiqueta de inicio de todos los archivos html, se utiliza para informar al navegador del tipo de documento. No tiene representación ya que es una etiqueta para el navegador.",
+    "Example": [
+        "<!DOCTYPE html>"
+    ],
+    "Empty": true,
+    "Category": "Raíz",
+    "Attribute": {}
+}

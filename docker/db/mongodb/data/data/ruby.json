@@ -1,0 +1,10 @@
+{
+    "Name": "ruby",
+    "Description": "Representa pequeñas anotaciones que se representan encima, debajo o al lado del texto base, generalmente utilizadas para mostrar la pronunciación de los caracteres de Asia oriental. También se puede usar para anotar otros tipos de texto, pero este uso es menos común.<ruby> El término rubí se originó como una unidad de medida utilizada por los tipógrafos , que representa el tamaño más pequeño en el que el texto se puede imprimir en papel de periódico sin dejar de ser legible.",
+    "Example": [
+        "<ruby>漢<rp>(</rp><rt>Kan</rt><rp>)</rp>字<rp>(</rp><rt>ji</rt><rp>)</rp></ruby>"
+    ],
+    "Empty": false,
+    "Category": "Ruby",
+    "Attribute": {}
+}

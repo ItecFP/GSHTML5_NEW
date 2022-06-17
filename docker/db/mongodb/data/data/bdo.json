@@ -1,0 +1,10 @@
+{
+    "Name": "bdo",
+    "Description": "BDO son las siglas de Anulación Bidireccional. Esta etiqueta se utiliza para anular la dirección actual del texto.",
+    "Example": [
+        "<bdo dir=\"rtl\">هذا النص من اليمين إلى اليسار</bdo><bdo dir=\"ltr\">Este texto esta de izquierda a derecha</bdo>"
+    ],
+    "Empty": false,
+    "Category": "Texto",
+    "Attribute": {}
+}

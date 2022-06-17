@@ -1,0 +1,67 @@
+{
+    "Name": "select",
+    "Description": "El elemento select representa un control que muestra un menú de opciones. Las opciones contenidas en el menú son representadas por elementos <option>, los cuales pueden ser agrupados por elementos <optgroup>. La opción puede estar preseleccionada por el usuario.",
+    "Example": [
+        "<select name=\"select\" multiple size=\"4\" required>Opciones...</select>"
+    ],
+    "Empty": false,
+    "Category": "Formularios",
+    "Attribute": {
+        "autofocus": {
+            "Description": "Este atributo permite especificar un formulario de control que debería tener enfoque de entrada cuando se carga la página, a no ser que el usuario lo sobre escriba escribiendo un control diferente. Solo un formulario puede tener el elemento de enfoque de entrada por documento, por lo cual es un atributo booleano.",
+            "Bool": true,
+            "Value": {},
+            "Example": [
+                "<select autofocus>Opciones...</select>"
+            ]
+        },
+        "disabled": {
+            "Description": "El atributo booleano especifica que el usuario no puede interactuar con el control. Si este atributo no está especificado, el control hereda los ajustes del campo que lo contiene.",
+            "Bool": true,
+            "Value": {},
+            "Example": [
+                "<select disabled>Opciones...</select>"
+            ]
+        },
+        "form": {
+            "Description": "El elemento formulario al cual el select está asociado. Si este atributo está especificado, su valor deberá ser el ID de un formulario del mismo documento.",
+            "Bool": false,
+            "Value": "ID formulario",
+            "Example": [
+                "<select form=\"formulario-id\">Opciones...</select>"
+            ]
+        },
+        "multiple": {
+            "Description": "Este elemento booleano indica que se pueden seleccionar múltiples opciones de la lista. Si no está especificado, solo se podrá seleccionar una opción cada vez.",
+            "Bool": true,
+            "Value": {},
+            "Example": [
+                "<select multiple=\"4\">Opciones...</select>"
+            ]
+        },
+        "name": {
+            "Description": "El nombre del elemento de control.",
+            "Bool": false,
+            "Value": "Nombre",
+            "Example": [
+                "<select name=\"formulario1\">Opciones...</select>"
+            ]
+        },
+        "required": {
+            "Description": "Es un elemento booleano que indica si la opción puede quedar sin seleccionar o si es requerida.",
+            "Bool": true,
+            "Value": {},
+            "Example": [
+                "<select required>Opciones...</select>"
+            ]
+        },
+        "size": {
+            "Description": "Si el control se presenta como una lista con scroll en caja, este atributo representa el numero de filas que la list tendrá visible la primera vez. Por defecto es cero.",
+            "Bool": false,
+            "Value": "Numero entero",
+            "Example": [
+                "<select size=\"4\">Opciones...</select>"
+            ]
+        }
+    }
+}

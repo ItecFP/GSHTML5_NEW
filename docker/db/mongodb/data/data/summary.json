@@ -1,0 +1,10 @@
+{
+    "Name": "summary",
+    "Description": "El elemento summary especifica un resumen, un título o una leyenda para el cuadro de información de un elemento. Al hacer clic en el elemento, el estado del elemento principal cambia entre abierto y cerrado.",
+    "Example": [
+        "<summary>Contenido...</summary>"
+    ],
+    "Empty": false,
+    "Category": "Elementos interactivos",
+    "Attribute": {}
+}

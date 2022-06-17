@@ -1,0 +1,133 @@
+{
+    "Name": "a",
+    "Description": "La etiqueta <a> define un hipervínculo que se utiliza para vincular un archivo a nuestra página. El atributo más importante del elemento <a> es el atributo href, que indica el destino del enlace, además es obligatorio.",
+    "Example": [
+        "<a href=\"url\">Texto</a>"
+    ],
+    "Empty": false,
+    "Category": "Texto",
+    "Attribute": {
+        "href": {
+            "Description": "El valor del atributo href da la ruta absoluta o relativa del archivo al que se realiza el hipervínculo.",
+            "Bool": false,
+            "Value": "url",
+            "Example": [
+                "<a href=\"url\">Texto</a>"
+            ]
+        },
+        "hreflang": {
+            "Description": "El atributo hreflang indica el idioma del archivo o url del hipervínculo.",
+            "Bool": false,
+            "Value": "idioma",
+            "Example": [
+                "<a href=\"url\" hreflang=\"idioma\">Texto</a>"
+            ]
+        },
+        "media": {
+            "Description": "El atributo media especifica para qué medio o dispositivo está optimizado el documento vinculado. Este atributo se utiliza para especificar que la URL de destino está diseñada para dispositivos especiales (como iPhone), medios impresos o de voz. Este atributo es muy extenso, por lo tanto aqui tienes unas tablas para poder ver todos los posibles valores y como configurarlo de la forma más óptima posible.",
+            "Bool": false,
+            "Value": {
+                "all": "Apto para todos los dispositivos (Predeterminado)",
+                "aural": "Sintetizadores de voz.",
+                "braille": "Dispositivos de retro alimentación en braille.",
+                "handheld": "Dispositivos de mano (pantalla pequeña, ancho de banda limitado).",
+                "projection": "Proyectores.",
+                "print": "Modo de vista previa de impresión.",
+                "screen": "Pantalla de ordenador.",
+                "tty": "Teletipos y medios similares que utilizan una cuadrícula de caracteres de tono fijo.",
+                "tv": "Dispositivos de tipo televisión (baja resolución, capacidad de desplazamiento limitada).",
+                "width": "Especifica el ancho del área de visualización de destino. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "height": "Especifica la altura del área de visualización de destino. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "device-width": "Especifica el ancho de la pantalla/página de destino. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "device-height": "Especifica la altura de la pantalla/página de destino. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "orientation": "Especifica la orientación de la pantalla/página de destino.",
+                "aspect-ratio": "Especifica la relación ancho/alto del área de visualización de destino. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "device-aspect-ratio": "Especifica la relación del ancho/alto del dispositivo de la pantalla/página de destino. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "color": "Especifica los bits por color de la pantalla de destino. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "color-index": "Especifica el número de colores que puede manejar la pantalla de destino. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "monochrome": "Especifica los bits por pixel en un buffer de fotogramas monocromáticos.Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "resolution": "Especifica los bits por pixel en un buffer de fotogramas monocromáticos. Se pueden utilizar los prefijos \"min-\" y \"max-\".",
+                "scan": "Especifica el método de escaneo de una pantalla de televisión.",
+                "grid": "Especifica si el dispositivo de salida es de cuadrícula o mapa de bits.",
+                "and": "Especifica un operador AND.",
+                "not": "Especifica un operador NOT.",
+                ",": "Especifica un operador OR."
+            },
+            "Example": [
+                "<a href=\"url\" media=\"all\">Texto</a>"
+            ]
+        },
+        "ping" : {
+            "Description": "El atributo ping especifica una lista de URLs que se notificarán si el usuario sigue el hipervínculo. Cuando el usuario hace click en el hipervínculo, el atributo ping enviará una breve solicitud HTTP POST a la URL especificada. Este atributo es útil para monitorear o rastrear la navegación de los usuarios.",
+            "Bool": false,
+            "Value": "Ruta de archivo",
+            "Example": [
+                "<a href=\"url\" ping=\"ruta\"></a>"
+            ]
+        },
+        "referrerpolicy": {
+            "Description": "El atributo referrerpolicy especifica qué información de referencia se envía cuando el usuario hace click en el hipervínculo. Este atributo puede aceptar los siguientes valores:",
+            "Bool": false,
+            "Value": {
+                "no-referrer": "No se envía información de referencia.",
+                "no-referrer-when-downgrade": "Envía el origen, la ruta y la cadena de consulta si el nivel de seguridad del protocolo permanece igual o es más alto (HTTP a HTTPS). No envía nada a un nivel menos seguro (HTTPS a HTTP). (Por defecto)",
+                "origin": "Envía el origen, esquema, host y puerto del documento.",
+                "origin-when-cross-origin": "Envía el origen del documento para la solicitud de origen cruzado. Envía el origen, la ruta y la cadena de consulta para la solicitud del mismo origen.",
+                "same-origin": "Envía una referencia para una solicitud del mismo origen. No envía ninguna referencia para la solicitud de origen cruzado.",
+                "strict-origin-when-cross-origin": "Envía el origen si el nivel de seguridad del protocolo sigue siendo el mismo o es más alto (HTTP a HTTPS). No envía nada a un nivel menos seguro (HTTPS a HTTP).",
+                "unsafe-url": "Envía el origen, la ruta y la cadena de consulta (independientemente de la seguridad). ¡Utilice este valor con cuidado!"
+            },
+            "Example": [
+                "<a href=\"url\" referrerpolicy=\"no-referrer\"></a>"
+            ]
+        },
+        "rel": {
+            "Description": "El atributo rel especifica la relación entre el documento actual y el documento vinculado. Solo se usa si el atributo href está presente. Los motores de búsqueda pueden utilizar este atributo para obtener más información sobre un enlace.",
+            "Bool": false,
+            "Value": {
+                "alternate": "Proporciona un enlace a una representación alternativa del documento, es decir, página impresa, traducida o reflejada.",
+                "author": "Proporciona un enlace al autor del documento.",
+                "bookmark": "URL permanente utilizada para los marcadores.",
+                "external": "Indica que el documento referenciado no es parte del mismo sitio que el documento actual.",
+                "help": "Proporciona un enlace a un documento de ayuda.",
+                "license": "Proporciona un enlace a la información de licencia del documento.",
+                "next": "Proporciona un enlace al siguiente documento de la serie.",
+                "nofollow": "Vínculos a un documento no endosado, como un vínculo pago.",
+                "noopener": "Requiere que cualquier contexto de navegación creado siguiendo el hipervínculo no debe tener un contexto de navegación de apertura.",
+                "noreferrer": "Hace que la referencia sea desconocida. No se incluirá ningún encabezado de referencia cuando el usuario haga clic en el hipervínculo.",
+                "prev": "El documento anterior en una selección.",
+                "search": "Enlaces a una herramienta de búsqueda del documento.",
+                "tag": "Una etiqueta (palabra clave) para el documento actual."
+            },
+            "Example": [
+                "<a href=\"url\" rel=\"external\"></a>"
+            ]
+        },
+        "target": {
+            "Description": "El atributo target especifica como abrir el documento vinculado.",
+            "Bool": false,
+            "Value": {
+                "_self": "Abre la página vinculada en la misma ventana o pestaña. (Predeterminado)",
+                "_blank": "Abre la página vinculada en una nueva ventana o pestaña.",
+                "_top": "Abre la página vinculada en todo el cuerpo de la ventana o pestaña.",
+                "_parent": "Abre la página vinculada en la ventana o pestaña anterior."
+            },
+            "Example": [
+                "<a href=\"url\" target=\"_blank\"></a>"
+            ]
+        },
+        "type": {
+            "Description": "El atributo type se usa para indicar el tipo de archivo vinculado. A continuación dejamos una tabla con unos pocos de ejemplos de los tipos de archivo más usados:",
+            "Bool": false,
+            "Value": {
+                "text/html": "Documento HTML.",
+                "video/mp4": "Archivo de Video MP4.",
+                "audio/mp3": "Archivo de Audio MP3.",
+                "img/png": "Imagen PNG."
+            },
+            "Example": [
+                "<a href=\"url\" type=\"text/html\"></a>"
+            ]
+        }
+    }
+}

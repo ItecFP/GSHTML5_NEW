@@ -1,0 +1,49 @@
+{
+    "Name": "th",
+    "Description": "El elemento th define una celda como encabezado de un grupo de celdas en una tabla.",
+    "Example": [
+        "<th>Contenido...</th>"
+    ],
+    "Empty": false,
+    "Category": "Tablas",
+    "Attribute": {
+        "headers": {
+            "Description": "Este atributo contiene una lista de cadenas separadas por espacios, cada uno correspondiente al atributo ID de los elementos <th> que se aplican a este elemento.",
+            "Bool": false,
+            "Value": "ID del <th> al que pertenece.",
+            "Example": [
+                "<th headers=\"id-th\"></th>"
+            ]
+        },
+        "colspan": {
+            "Description": "Este atributo contiene un valor entero no negativo que indica a cuántas columnas se extiende.",
+            "Bool": false,
+            "Value": "Número entero.",
+            "Example": [
+                "<th colspan=\"2\"></th>"
+            ]
+        },
+        "rowspan": {
+            "Description": "Este atributo contiene un valor entero no negativo que indica a cuántas filas se extiende.",
+            "Bool": false,
+            "Value": "Número entero.",
+            "Example": [
+                "<th rowspan=\"2\"></th>"
+            ]
+        },
+        "scope": {
+            "Description": "Este atributo enumerado define las celdas con las que <th> se relaciona el elemento de encabezado. Puede tener los siguientes valores:",
+            "Bool": false,
+            "Value": {
+                "row": "El encabezado se relaciona con todas las celdas de la fila a la que pertenece.",
+                "col": "El encabezado se relaciona con todas las celdas de la columna a la que pertenece.",
+                "rowgroup": "El encabezado pertenece a un grupo de filas y se relaciona con todas sus celdas.",
+                "colgroup": "El encabezado pertenece a un colgroup y se relaciona con todas sus celdas.",
+                "auto": "Automático."
+            },
+            "Example": [
+                "<th scope=\"auto\"></th>"
+            ]
+        }
+    }
+}

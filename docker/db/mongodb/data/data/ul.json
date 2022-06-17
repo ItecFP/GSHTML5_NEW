@@ -1,0 +1,10 @@
+{
+    "Name": "ul",
+    "Description": "El elemento ul, que significa \"unordered list\", lista no ordenada, crea una lista no ordenada. Puede contener uno o más elementos li.",
+    "Example": [
+        "<ul>Elementos...</ul>"
+    ],
+    "Empty": false,
+    "Category": "Listas",
+    "Attribute": {}
+}

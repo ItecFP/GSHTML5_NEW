@@ -1,0 +1,10 @@
+{
+    "Name": "aside",
+    "Description": "La etiqueta <aside> define algún contenido además del contenido en el que se coloca. El contenido aparte debe estar relacionado indirectamente con el contenido circundante y a menudo se coloca como una barra lateral en un documento. Nota: El elemento <aside> no se representa como algo especial en un navegador. Sin embargo, puede usar CSS para rediseñar el <aside>.",
+    "Example": [
+        "<aside>Esto no tiene nada que ver con la Guiá Suprema de HTML</aside>"
+    ],
+    "Empty": false,
+    "Category": "Secciones",
+    "Attribute": {}
+}

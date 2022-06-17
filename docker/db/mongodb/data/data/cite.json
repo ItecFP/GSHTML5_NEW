@@ -1,0 +1,10 @@
+{
+    "Name": "cite",
+    "Description": "Esta etiqueta define el título de una obra creativa (por ejemplo, un libro, un poema, una canción, una película, una pintura, una escultura, etc...)",
+    "Example": [
+        "<cite>La Gioconda, de Leonardo da Vinci. Pintada en 1503</cite>"
+    ],
+    "Empty": false,
+    "Category": "Texto",
+    "Attribute": {}
+}

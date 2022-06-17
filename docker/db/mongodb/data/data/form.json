@@ -1,0 +1,90 @@
+{
+    "Name": "form",
+    "Description": "El elemento <form> representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web.",
+    "Example": [
+        "<form action=\"URL\" method=\"POST\" enctype=\"multipart/form-data\">Formulario...</form>"
+    ],
+    "Empty": false,
+    "Category": "Formularios",
+    "Attribute": {
+        "accept-charset": {
+            "Description": "Una lista de codificación de caracteres que el servidor acepta. La lista puede ser delimitada por espacios o comas. El navegador los usa en el orden en que cada uno son listados. Los valores por defecto es la cadena reservada \"UNKNOWN\", en tal caso la codificación corresponde a la codificación del documento conteniendo el elemento form.",
+            "Bool": false,
+            "Value" : "Nombre de la codificación",
+            "Example": [
+                "<form action=\"URL\" accept-charset=\"utf-8\">Formulario...</form>"
+            ]
+        },
+        "action": {
+            "Description": "La ruta del programa que procesa la información enviada por medio del formulario. Este valor puede ser sobre escrito por un atributo action en un <button> o en el elemento <input>.",
+            "Bool": false,
+            "Value" : "URL",
+            "Example": [
+                "<form action=\"URL\">Formulario...</form>"
+            ]
+        },
+        "autocomplete": {
+            "Description": "Indica cuales de los controles en este formulario puede tener sus valores automáticamente completados por el navegador. Esta configuración puede ser sobre escrita por un atributo autocomplete en un elemento que pertenezca al formulario:",
+            "Bool": false,
+            "Value" : {
+                "off": "El usuario debe ingresar explícitamente cada valor dentro de cada campo por cada uso, o el documento provee su propio método de auto completado; el navegador no auto completa las entradas.",
+                "on": "El navegador puede completar automáticamente valores basados en lo que el usuario ha ingresado durante entradas previas al formulario."
+            },
+            "Example": [
+                "<form action=\"URL\" autocomplete=\"off\">Formulario...</form>"
+            ]
+        },
+        "enctype": {
+            "Description": "Cuando el valor del atributo method es post es que el formulario es usado para enviarlo al servidor.",
+            "Bool": false,
+            "Value": {
+                "application/x-www-form-urlencoded": "El valor por defecto si el atributo no está especificado.",
+                "multipart/form-data": "Usa este valor si se está usando el elemento <input type=\"file\">.",
+                "text/plain": "Texto plano"
+            },
+            "Example": [
+                "<form action=\"URL\" enctype=\"multipart/form-data\">Formulario...</form>"
+            ]
+        },
+        "method": {
+            "Description": "El método HTTP que el navegador usa para enviar el formulario. Los valores posibles son:",
+            "Bool": false,
+            "Value": {
+                "post": "Los datos del formulario son incluidos en el cuerpo del formulario y son enviados al servidor.",
+                "get": "Los datos del formulario son adjuntados a la url con un '?' como separador, y la URI resultante es enviada al servidor."
+            },
+            "Example": [
+                "<form action=\"ruta\" method=\"POST\">Formulario...</form>"
+            ]
+        },
+        "name": {
+            "Description": "El nombre del formulario.",
+            "Bool": false,
+            "Value": "Nombre del formulario",
+            "Example": [
+                "<form action=\"URL\" name=\"formulario1\">Formulario...</form>"
+            ]
+        },
+        "novalidate": {
+            "Description": "Este atributo booleano indica que el formulario no es validado cuando es enviado.",
+            "Bool": true,
+            "Value": {},
+            "Example": [
+                "<form action=\"ruta\" novalidate>Formulario...</form>"
+            ]
+        },
+        "target": {
+            "Description": "El atributo target especifica como abrir el documento vinculado.",
+            "Bool": false,
+            "Value": {
+                "_self": "Abre la página vinculada en la misma ventana o pestaña. (Predeterminado)",
+                "_blank": "Abre la página vinculada en una nueva ventana o pestaña.",
+                "_top": "Abre la página vinculada en todo el cuerpo de la ventana o pestaña.",
+                "_parent": "Abre la página vinculada en la ventana o pestaña anterior."
+            },
+            "Example": [
+                "<form action=\"ruta\" target=\"_blank\">Formulario...</form>"
+            ]
+        }
+    }
+}

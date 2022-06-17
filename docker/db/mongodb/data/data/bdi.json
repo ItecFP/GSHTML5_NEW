@@ -1,0 +1,10 @@
+{
+    "Name": "bdi",
+    "Description": "BDI significa Aislamiento bidireccional. La etiqueta <bdi> aísla una parte del texto que podría tener un formato diferente al de otro texto fuera de él. Es útil cuando se incrusta contenido generado por el usuario con una dirección de texto desconocida.",
+    "Example": [
+        "<bdi>مرحبا بالعالم</bdi>"
+    ],
+    "Empty": false,
+    "Category": "Texto",
+    "Attribute": {}
+}

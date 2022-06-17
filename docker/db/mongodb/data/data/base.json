@@ -1,0 +1,33 @@
+{
+    "Name": "base",
+    "Description": "La etiqueta <base> especifica la URL base y/o el destino para todas las URL relativas en un documento, debe tener al menos un atributo href. Solo puede haber un único elemento <base> en el documento y debe estar dentro del <head>.",
+    "Example": [
+        "<head><base href=\"url\" target=\"_blank\"></head>"
+    ],
+    "Empty": true,
+    "Category": "Metadatos",
+    "Attribute": {
+        "href": {
+            "Description": "El valor del atributo href da la ruta absoluta o relativa del archivo al que se realiza el hipervínculo.",
+            "Bool": false,
+            "Value": "url",
+            "Example": [
+                "<base href=\"url\">"
+            ]
+        },
+        "target": {
+            "Description": "El atributo target especifica como abrir el documento vinculado.",
+            "Bool": false,
+            "Value": {
+                "_self": "Abre la página vinculada en la misma ventana o pestaña. (Predeterminado)",
+                "_blank": "Abre la página vinculada en una nueva ventana o pestaña.",
+                "_top": "Abre la página vinculada en todo el cuerpo de la ventana o pestaña.",
+                "_parent": "Abre la página vinculada en la ventana o pestaña anterior."
+            },
+            "Example": [
+                "<base href=\"url\" target=\"_blank\">"
+            ]
+        }
+    }
+}
+       

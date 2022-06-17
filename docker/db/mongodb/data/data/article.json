@@ -1,0 +1,10 @@
+{
+    "Name": "article",
+    "Description": "La etiqueta <article> especifica un contenido autónomo e independiente. Un artículo debería tener sentido por sí solo y debería ser posible distribuirlo independientemente del resto del sitio. Fuentes potenciales del <article> elemento: Una publicación en un Foro Una entrada en un Blog Una Noticia",
+    "Example": [
+        "<article><h4>Microsoft Edge</h4><p>Es el navegador web de Microsoft</p></article><article><h4>Google Chrome</h4><p>Es el navegador web de Google</p></article>"
+    ],
+    "Empty": false,
+    "Category": "Secciones",
+    "Attribute": {}
+}

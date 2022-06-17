@@ -1,0 +1,32 @@
+{
+    "Name": "legend",
+    "Description": "Esta etiqueta se usa para definir un fragmento de código de computadora. El contenido del interior se muestra en la fuente mono espaciada predeterminada del navegador.",
+    "Example": [
+        "<legend>Titulo Fieldset</legend>"
+    ],
+    "Empty": false,
+    "Category": "Formularios",
+    "Attribute": {
+        "accesskey": {
+            "Description": "Carácter de la tecla de acceso rápido.",
+            "Bool": false,
+            "Value": "Valor Entero",
+            "Example": [
+                "<legend accesskey=\"1\"></legend>"
+            ]
+        },
+        "align": {
+            "Description": "Alineación con relación al fieldset.",
+            "Bool": false,
+            "Value": [
+                "top",
+                "bottom",
+                "left",
+                "right"
+            ],
+            "Example": [
+                "<legend align=\"top\"></legend>"
+            ]
+        }
+    }
+}

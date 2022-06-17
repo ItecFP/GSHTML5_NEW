@@ -1,0 +1,10 @@
+{
+    "Name": "address",
+    "Description": "La etiqueta <address> se usa para definir la información de contacto del autor / propietario de un documento o artículo, puede incluir un correo electrónico, URL, dirección física, número de teléfono, identificador de redes sociales, etc. El texto del elemento <address> generalmente se muestra en cursiva y los navegadores siempre agregarán un salto de línea antes y después del elemento.",
+    "Example": [
+        "<address>Escrito por <a href=\"GSHTML@example.com\">David Pozo y Alberto Sánchez.</a> Visitanos en <a href=\"https://GSHTML.com\">nuestra WEB.</a> Antequera, Málaga. ESP </address>"
+    ],
+    "Empty": false,
+    "Category": "Secciones",
+    "Attribute": {}
+}

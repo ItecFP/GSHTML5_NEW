@@ -1,0 +1,23 @@
+{
+    "Name": "del",
+    "Description": "El elemento del marca las partes de un texto o documento que han sido suprimidas o sustituidas. Crea una caja: a veces en linea y otras en bloque. Está definido como: Puede contener: depende, si actuá como un elemento en bloque puede contener elementos en bloque y en linea. Pero si actuá como un elemento en linea solo podrá contener elementos en linea.",
+    "Example": [
+        "Ejemplo de ins en linea: <p> El agua es insípida <del>y húmeda.</del> <ins>inodora e incolora.</ins> </p> Ejemplo de ins en bloque: <p> El agua es insípida. </p> <del> <p> y húmeda. </p> </del>"
+    ],
+    "Empty": false,
+    "Category": "Modificadores",
+    "Attribute": {
+        "cite": {
+            "Description": "Información sobre el cambio.",
+            "Bool": false,
+            "Value": "URL",
+            "Example": []
+        },
+        "datetime": {
+            "Description": "Fecha y hora del cambio.",
+            "Bool": false,
+            "Value": "Fecha",
+            "Example": []
+        }
+    }
+}

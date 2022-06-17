@@ -1,0 +1,10 @@
+{
+    "Name": "canvas",
+    "Description": "Esta etiqueta se utiliza para dibujar gráficos, sobre la marcha, mediante secuencias de comandos (generalmente JavaScript). La etiqueta es transparente y es solo un contenedor de gráficos, debe usar un script para dibujar los gráficos.",
+    "Example": [
+        "<canvas id=\"myCanvas\">Su navegador no es compatible con esta etiqueta</canvas>"
+    ],
+    "Empty": false,
+    "Category": "Scripts",
+    "Attribute": {}
+}

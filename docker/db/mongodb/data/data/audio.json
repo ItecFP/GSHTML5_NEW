@@ -1,0 +1,63 @@
+{
+    "Name": "audio",
+    "Description": "La etiqueta <audio> se utiliza para incrustar contenido de sonido en un documento, como música u otras transmisiones de audio, además, puede contener una o más etiquetas <source> con diferentes fuentes de audio. El navegador elegirá la primera fuente que admita. El texto entre las etiquetas <audio> y </audio> sólo se mostrará en los navegadores que no soportan el elemento <audio>. Hay varios formatos de audio compatibles en HTML, como por ejemplo: MP3, WAV y OGG... etc.",
+    "Example": [
+        "<audio src=\"./test.mp3/\" controls></audio>"
+    ],
+    "Empty": false,
+    "Category": "Contenido incrustado",
+    "Attribute": {
+        "autoplay": {
+            "Description": "Especifica que el audio comenzará a reproducirse tan pronto como esté listo",
+            "Bool": true,
+            "Value": {},
+            "Example": [
+                "<audio src=\"./test.mp3/\" autoplay></audio>"
+            ]
+        },
+        "controls": {
+            "Description": "Especifica que se deben mostrar los controles de audio (como un botón de reproducción, pausa, etc...)",
+            "Bool": true,
+            "Value": {},
+            "Example": [
+                "<audio src=\"./test.mp3/\" controls></audio>"  
+            ]
+        },
+        "loop": {
+            "Description": "Especifica que el audio comenzará de nuevo cada vez que termine",
+            "Bool": true,
+            "Value": {},
+            "Example": [
+                "<audio src=\"./test.mp3/\" loop></audio>"  
+            ]
+        },
+        "muted": {
+            "Description": "Especifica que la salida de audio debe estar silenciada",
+            "Bool": true,
+            "Value": {},
+            "Example": [
+                "<audio src=\"./test.mp3/\" muted></audio>"  
+            ]
+        },
+        "preload": {
+            "Description": "Especifica si el autor cree que se debe cargar el audio cuando se carga la página y cómo lo hace",
+            "Bool": false,
+            "Value": [
+                "auto",
+                "metadata",
+                "none"
+            ],
+            "Example": [
+                "<audio src=\"./test.mp3/\" preload></audio>"  
+            ]
+        },
+        "src": {
+            "Description": "Especifica si el autor cree que se debe cargar el audio cuando se carga la página y cómo lo hace",
+            "Bool": false,
+            "Value": "ruta",
+            "Example": [
+                "<audio src=\"./test.mp3/\"></audio>"  
+            ]
+        }
+    }
+}

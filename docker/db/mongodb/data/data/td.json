@@ -1,0 +1,35 @@
+{
+    "Name": "td",
+    "Description": "El elemento td es una celda de tabla que contiene datos. Esta participa en el modelo de tablas.",
+    "Example": [
+        "<td>Contenido...</td>"
+    ],
+    "Empty": false,
+    "Category": "Tablas",
+    "Attribute": {
+        "headers": {
+            "Description": "Este atributo contiene una lista de cadenas separadas por espacios, cada uno correspondiente al atributo ID de los elementos <th> que se aplican a este elemento.",
+            "Bool": false,
+            "Value": "ID del th al que pertenece.",
+            "Example": [
+                "<td headers=\"id-th\"></td>"
+            ]
+        },
+        "colspan": {
+            "Description": "Este atributo contiene un valor entero no negativo que indica a cuántas columnas se extiende.",
+            "Bool": false,
+            "Value": "Número entero.",
+            "Example": [
+                "<td colspan=\"2\"></td>"
+            ]
+        },
+        "rowspan": {
+            "Description": "Este atributo contiene un valor entero no negativo que indica a cuántas filas se extiende.",
+            "Bool": false,
+            "Value": "Número entero.",
+            "Example": [
+                "<td rowspan=\"2\"></td>"
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "blockquote",
+    "Description": "La etiqueta <blockquote> especifica una sección que se cita de otra fuente. Los navegadores suelen aplicarle sangría. Para pequeñas citas dentro de un texto se recomienda la etiqueta <q>.",
+    "Example": [
+        "<blockquote cite=\"https://es.wikipedia.org/wiki/Windows_11\"><p>Windows 11 es el nombre de la última y actual versión del sistema operativo Windows​ desarrollado por Microsoft, además de ser el sucesor de la anterior versión del sistema operativo, Windows 10,​lanzado en 2015.<p></blockquote>"
+    ],
+    "Empty": false,
+    "Category": "Bloques de contenido",
+    "Attribute": {}
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "body",
+    "Description": "Es una de las etiquetas más importantes de HTML. Representa el contenido del documento, sin ella la página estaría en blanco. Solo puede haber un elemento <body> por página.",
+    "Example": [
+        "<body><h1>Titulo</h1><p>Párrafo</p></body>"
+    ],
+    "Empty": false,
+    "Category": "Bloques de contenido",
+    "Attribute": {}
+}

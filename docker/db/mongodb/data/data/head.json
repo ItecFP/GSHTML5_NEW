@@ -1,0 +1,10 @@
+{
+    "Name": "head",
+    "Description": "Provee información general acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos, entre otros.",
+    "Example": [ 
+        "<head>Metadatos...</head>"
+    ],
+    "Empty": false,
+    "Category": "Metadatos",
+    "Attribute": {}
+}

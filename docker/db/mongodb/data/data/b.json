@@ -1,0 +1,10 @@
+{
+    "Name": "b",
+    "Description": "La etiqueta <b> se utiliza para dar importancia adicional, los navegadores suelen resaltarla en negrita.",
+    "Example": [
+        "<b>Texto importante</b>"
+    ],
+    "Empty": false,
+    "Category": "Texto",
+    "Attribute": {}
+}

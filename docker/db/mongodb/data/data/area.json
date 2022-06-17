@@ -1,0 +1,10 @@
+{
+    "Name": "area",
+    "Description": "La etiqueta <area> define un área dentro de un mapa de imagen, es una imagen con áreas en las que se puede hacer click. Esta etiqueta debe ir siempre dentro de la etiqueta <map> y acompañada de una <img>",
+    "Example": [
+        "<img src=\"./img/planetas.gif\" width=\"145\" height=\"126\" usemap=\"#planetmap\"><map name=\"planetmap\"><area shape=\"rect\" coords=\"0,0,82,126\" alt=\"Sun\" href=\"Sol.html\"><area shape=\"circle\" coords=\"90,58,3\" alt=\"Mercury\" href=\"Mercurio.html\"><area shape=\"circle\" coords=\"124,58,8\" alt=\"Venus\" href=\"Venus.html\"></map>"
+    ],
+    "Empty": false,
+    "Category": "Contenido incrustado",
+    "Attribute": {}
+}

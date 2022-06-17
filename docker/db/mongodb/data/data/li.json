@@ -1,0 +1,10 @@
+{
+    "Name": "li",
+    "Description": "El elemento li del ingles, item list o elemento de lista, declara cada uno de los elementos de una lista. Puede contener ninguno o más elementos en bloque o en en linea.",
+    "Example": [
+        "<li>Elemento</li>"
+    ],
+    "Empty": false,
+    "Category": "Listas",
+    "Attribute": {}
+}
