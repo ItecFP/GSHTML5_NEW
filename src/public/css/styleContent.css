@@ -1,0 +1,124 @@
+
+
+section:hover .card-header{
+    text-decoration: underline;
+    
+
+}
+.card-header{
+    margin-top: 20px;
+    background-color: var(--principal0);
+    color: var(--secundario);
+    padding-left: 5%;
+}
+
+.navbar-content{
+    background-color: var(--principal0);
+    color: var(--secundario);
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.card-text{
+    text-align:justify;
+}
+
+:root{
+    --header-height: 5rem;
+    --principal0: rgba(32,32,32, 1);
+    --principal1: rgba(40,40,40, 1);
+    --principal2: rgba(48,48,48, 1);
+    --principal3: rgba(56,56,56, 1);
+    --principal4: rgba(64,64,64, 1);
+    --secundario: rgba(255, 193, 7, 0.9);
+    --secundario2: rgba(255, 193, 7, 1);
+    --secundario3: rgba(255, 193, 7, 0.3);
+}
+;;
+.enlacescategorias{
+    text-decoration: none;
+    color: black;
+}
+.enlacescategorias:hover{
+    color: var(--secundario2);
+}
+
+.row {
+    text-align: center;
+    font-size: x-large;
+    margin: 0 2rem;
+    height: 5rem;
+}
+
+header{
+    background-color: var(--principal1);
+}
+
+.bottones {
+    margin: 0.5rem;
+    background-color: var(--secundario);
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+.bottones:hover {
+    margin: 0.5rem;
+    background-color: var(--secundario2);
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+#cerrar{
+    display: none;
+}
+
+[alt="iconmenu"]{
+    width: 2rem;
+    height: 2rem;
+}
+
+.search-button {
+    background-color: var(--secundario2);
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: var(--secundario3);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--secundario3);
+}
+
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--secundario3);
+}
+
+
+
+#sidebar {
+    height: calc( 100vh - var(--header-height));
+    width: 0;
+    top: var(--header-height);
+    background-color: rgb(50, 50, 60);
+    overflow-x: hidden;
+    transition: 0.3s;
+    box-sizing:border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contenido {
+    height: calc(100vh - var(--header-height));
+    transition: margin-left 0.3s;
+}
+
+
+.background-dark {
+    background-color: var(--principal2);
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+

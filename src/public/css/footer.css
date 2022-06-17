@@ -1,0 +1,54 @@
+.footer {
+    margin:0;
+    padding:0;
+    font-family: 'fuente_principal';
+    width: 100%;
+    background-color: rgb(157, 126, 34);
+    margin:0;
+    padding:0;
+}
+
+.footer .nivel1 {
+    width: 100%;
+    max-width: 1200;
+    margin: auto;
+
+}
+
+.footer .nivel1 .contactos {
+
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+.footer .nivel1 .caja .sobre_nosotros {
+
+    margin-bottom: 3px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.footer .nivel1 .caja p {
+
+    text-align: center;
+    margin-bottom: 1px;
+
+
+}
+
+.footer .nivel2 {
+    text-align: center;
+
+}
+
+.container {
+    height: 3rem;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}

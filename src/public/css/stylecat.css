@@ -1,0 +1,186 @@
+/*CATEGORIA*/
+
+.navContentbg{
+    background-color: var(--principal3);
+}
+
+.catTitle{
+    color: var(--principal1);
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Logo', sans-serif;
+}
+
+
+/*CATEGORIA*/
+
+
+/*INDEX*/
+:root{
+    --principal0: rgba(32,32,32, 1);
+    --principal1: rgba(40,40,40, 1);
+    --principal2: rgba(48,48,48, 1);
+    --principal3: rgba(56,56,56, 1);
+    --principal4: rgba(64,64,64, 1);
+    --secundario: rgba(255, 193, 7, 0.9);
+    --secundario2: rgba(255, 193, 7, 1);
+    --secundario3: rgba(255, 193, 7, 0.3);
+}
+
+.enlaces__categorias{
+    text-decoration: none;
+    color: black;
+}
+
+.enlaces__categorias:hover{
+    color: var(--secundario2);
+}
+
+.row {
+    text-align: center;
+    font-size: x-large;
+    margin: 0 2rem;
+    height: 5rem;
+}
+
+/*INDEX*/
+
+/*FUENTE*/
+@font-face {
+    font-family: 'Suprema';
+    src: url('../fonts/lobster-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lobster-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Logo';
+    src: url('../fonts/racingsansone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/racingsansone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*LOGO*/
+header{
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-indent:50px ;
+
+}
+
+.guia{
+    color: white;
+    line-height: 2vh;
+    text-indent:7.3vw;
+    font-size:3vw;
+    font-family: 'Logo', sans-serif;
+}
+
+.suprema{
+    color: white;
+    line-height: 3vh;
+    text-indent:3.5vw;
+    font-size: 6vw;
+    text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
+    font-family: 'Suprema', cursive;
+}
+
+.html5 {
+    color: white;
+    line-height: 2.5vh;
+    text-indent:16vw;
+    font-size:3vw;
+    font-family: 'Logo', sans-serif;
+}
+
+.suprema span {
+    animation: parpadear 1.0s infinite backwards;
+    animation-direction: alternate;
+}
+
+
+@keyframes parpadear{
+        0% { opacity: 1; }
+        10% { opacity: .6; }
+        12% { opacity: 1; }
+        15% { opacity: .4; }
+        17% { opacity: 1; }
+        18% { opacity: .3; }
+        19% { opacity: 1; }
+        89% { opacity: 1; }
+        91% { opacity: .7; }
+        94% { opacity: 1; }
+        100% { opacity: 1; }
+    }
+
+.logo {
+    margin: 0;
+    line-height: 150%;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+/*lOGO*/
+
+/*HEADER*/
+
+header{
+    background-color: var(--principal1);
+}
+
+.bottones {
+    background-color: var(--secundario);
+    border-radius: 15px;
+}
+
+.bottones:hover {
+    background-color: var(--secundario2);
+}
+
+#cerrar{
+    display: none;
+}
+
+[alt="iconmenu"]{
+    width: 2rem;
+    height: 2rem;
+}
+
+.search-button {
+    background-color: var(--secundario2);
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: var(--secundario3);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--secundario3);
+}
+
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--secundario3);
+}
+
+/*HEADER*/
+
+/*BODY*/
+
+.background-dark {
+    background-color: var(--principal2);
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+/*BODY*/
+
+.gshtml-grid-item{
+    width: 15rem;
+    height: 5rem;
+    background-color: var(--secundario2);;
+}

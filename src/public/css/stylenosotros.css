@@ -1,0 +1,497 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+
+
+/*INDEX*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --header-height: 5rem;
+    --principal0: rgba(32, 32, 32, 1);
+    --principal1: rgba(40, 40, 40, 1);
+    --principal2: rgba(48, 48, 48, 1);
+    --principal3: rgba(56, 56, 56, 1);
+    --principal4: rgba(64, 64, 64, 1);
+    --secundario: rgba(255, 193, 7, 0.9);
+    --secundario2: rgba(255, 193, 7, 1);
+    --secundario3: rgba(255, 193, 7, 0.3);
+}
+
+.enlaces__categorias {
+    text-decoration: none;
+    color: black;
+}
+
+.enlaces__categorias:hover {
+    color: var(--secundario2);
+}
+
+.row {
+    text-align: center;
+    font-size: x-large;
+    margin: 0 2rem;
+    height: 5rem;
+}
+
+/*INDEX*/
+
+/*FUENTES*/
+
+@font-face {
+    font-family: 'Suprema';
+    src: url('../fonts/lobster-regular-webfont.woff2') format('woff2'),
+        url('../fonts/lobster-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Logo';
+    src: url('../fonts/racingsansone-regular-webfont.woff2') format('woff2'),
+        url('../fonts/racingsansone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fuente_principal';
+    src: url('../fonts/racingsansone-regular-webfont.woff2') format('woff2'),
+        url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*LOGO*/
+header {
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-indent: 50px;
+    overflow: hidden;
+
+}
+
+.loguito{
+    height: auto;
+    width: 10rem;
+}
+
+.guia {
+    color: white;
+    line-height: 2vh;
+    text-indent: 7.1vw;
+    font-size: 3vw;
+    font-family: 'Logo', sans-serif;
+}
+
+.suprema {
+    text-shadow: 0 0 0.1rem rgb(106, 107, 96);
+    color: rgba(255, 255, 255, 0.3);
+    line-height: 3vh;
+    text-indent: 3.5vw;
+    font-size: 6vw;
+    font-family: 'Suprema', cursive;
+    animation: apagado 12s ease-in-out, parpadear 2s ease-in-out 10s;
+}
+
+.html5 {
+    color: white;
+    line-height: 2.5vh;
+    text-indent: 16vw;
+    font-size: 3vw;
+    font-family: 'Logo', sans-serif;
+}
+
+/* EFECTOS */
+
+/* PARPADEOS NEON */
+.parpadear {
+    text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
+    animation: parpadear 2.0s infinite backwards;
+}
+
+
+@keyframes parpadear {
+    0% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: .6;
+    }
+
+    12% {
+        opacity: 1;
+    }
+
+    15% {
+        opacity: .4;
+    }
+
+    17% {
+        opacity: 1;
+    }
+
+    18% {
+        opacity: .3;
+    }
+
+    19% {
+        opacity: 1;
+    }
+
+    89% {
+        opacity: 1;
+    }
+
+    91% {
+        opacity: .7;
+    }
+
+    94% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fall {
+    transform-origin: center;
+    animation: fall 0.6s ease-in-out;
+}
+
+@keyframes fall
+
+/* Palabra Suprema */
+    {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-15px);
+    }
+
+    75% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes fall2 {
+
+    /* Palabra Guía */
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-25px);
+    }
+
+    75% {
+        transform: translateY(7px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+.fall2 {
+    transform-origin: center;
+    animation: fall2 0.8s ease-in-out;
+}
+
+@keyframes fall3 {
+
+    /* Palabra html5 */
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    75% {
+        transform: translateY(2px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+.fall3 {
+    transform-origin: center;
+    animation: fall3 0.8s;
+}
+
+.fall {
+    transform-origin: center;
+    animation: fall 0.6s ease-in-out;
+}
+
+/*LOGO SECUNDARIO*/
+
+/* @keyframes fall4 Palabra Suprema {
+    0% {
+      transform:translateY(0);
+    }
+    25% {
+      transform: translateY(-60px);
+    }
+    75%{
+      transform: translateY(35px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+
+
+.fall4 {
+    transform-origin:center;
+    animation: fall4 0.6s ease-in-out;
+}
+*/
+/* .:::FIN:::LOGO SECUNDARIO:::.*/
+
+/*.:::FIN:::MOVIMIENTOS:::.
+
+
+/* .:::FIN:::EFECTOS:::.*/
+
+.logo {
+    margin: 0;
+    line-height: 150%;
+    font-size: 1rem;
+    text-decoration: none !important;
+}
+
+/* .:::FIN:::lOGO:::.*/
+
+
+
+/* LOGO ABREVIADO (LOGO QUE SE VISUALIZA AL HACER SCROLL HACIA ABAJO) */
+
+.h {
+    font-size: 5.5rem;
+    font-family: 'Logo', sans-serif;
+    color: white;
+
+}
+
+.tml {
+    font-size: 1.9rem;
+    font-family: 'Logo', sans-serif;
+    color: white;
+}
+
+.cinco {
+    font-size: 5.5rem;
+    font-family: 'Logo', sans-serif;
+    color: white;
+
+}
+
+.s {
+    font-family: 'Suprema', cursive;
+    position: absolute;
+    font-size: 2.5rem;
+    right: 84vw;
+    top: 3.4vw;
+
+}
+
+.g {
+    font-family: 'Logo', cursive;
+    position: absolute;
+    font-size: 2.6rem;
+    right: 86vw;
+    top: 2.4vw;
+
+}
+
+@keyframes apagado {
+    0%,99% {
+        text-shadow: 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.5rem rgba(255, 193, 7, 1), 0 0 0.6rem rgba(255, 193, 7, 1), 0 0 50px rgba(255, 193, 7, 1);
+
+    }
+    100% {
+        text-shadow: none;
+    }
+
+}
+
+
+
+
+
+
+/* .:::FIN:::LOGO ABREVIADO (LOGO QUE SE VISUALIZA AL HACER SCROLL HACIA ABAJO):::. */
+
+
+
+
+/*HEADER*/
+
+header {
+    background-color: var(--principal1);
+}
+
+.bottones {
+    background-color: var(--secundario);
+    border-radius: 15px;
+}
+
+.bottones:hover {
+    background-color: var(--secundario2);
+}
+
+#cerrar {
+    display: none;
+}
+
+[alt="iconmenu"] {
+    width: 2rem;
+    height: 2rem;
+}
+
+.search-button {
+    background-color: var(--secundario2);
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: var(--secundario3);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--secundario3);
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--secundario3);
+}
+
+/*HEADER*/
+
+/*SIDEBAR*/
+
+
+/*SIDEBAR*/
+
+/*BODY*/
+
+.background-dark {
+    background-color: var(--principal2);
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+/*BODY*/
